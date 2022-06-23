@@ -1,0 +1,202 @@
+*{
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+.main-menu{
+    position: relative;
+    width: 100%;
+    height: 5.5rem;
+    background-color: red;
+}
+.Sub-menu{
+    position: relative;
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    line-height: 5.5rem;
+    flex: 0.1;
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 500;
+}
+a:hover{
+    filter: brightness(0.7);
+}
+.button-one{
+    height: 35px;
+    width: 85px;
+    margin-top: 30px;
+    margin-right: 45px;
+    border-radius: 3px;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+.button-one:hover{
+    background-color: red;
+    transform: scale(1.2);
+}
+.News-indicator{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 15px;
+}
+.line-through{
+    width: 95%;
+    margin-left: 1rem;
+}
+.News{
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-weight: 200;
+}
+button{
+    border-radius: 5px;
+    margin: 10px;
+    border: 0;
+    background-color: pink;
+    color: #111;
+    padding: 5px;
+}
+button:focus{
+    border: 1px solid dodgerblue;
+    filter: drop-shadow(4px 4px 4px grey);
+}
+.main-news{
+    display: grid;
+    /* define a rule one row and three column */
+    grid-template: repeat(1, 400px) / repeat(3, 400px);
+    gap: 20px;
+    justify-content: center;
+
+}
+.sub-news-one{
+    background-color: white;
+    box-shadow: 4px 4px 4px grey;
+
+}
+.sub-news-one:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+.sub-news-two{
+    background-color: white;
+    box-shadow: 4px 4px 4px grey;
+
+}
+.sub-news-two:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+
+.sub-news-three{
+    background-color: white;
+    box-shadow: 4px 4px 4px grey;
+}
+
+.sub-news-three:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+
+}
+em{
+    color: red;
+    padding: 2px;
+}
+hr{
+    width: 95%;
+    margin-top: 10px;
+}
+.lai-mohammed{
+    margin-left: 10px;
+}
+.sub-news-two-one{
+    font-size: 1.6rem;
+    padding: 3px;
+}
+.sub-news-three-one{
+    padding: 2px;
+}
+.sub-news-one-one{
+    padding: 1px;
+}
+.special-news{
+    background-color: grey;
+    width: 800px;
+    height: 700px;
+    margin-left: 270px;
+    margin-top: 30px;
+    border-radius: 5px;
+
+}
+.special-one{
+    width: 600px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.966);
+    margin-top: 20px;
+    margin-left: 90px;
+    border-radius: 5px;
+}
+.news-heading{
+    font-size: 23px;
+    font-weight: bold;
+    padding: 5px;
+}
+.lagos_logo{
+    float: right;
+    padding: 2px;
+    margin-bottom: 10px;
+}
+p{
+    padding: 5px;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+    color: white;
+}
+.footer-image{
+    margin: 15px;
+}
+.footer-links{
+    column-count: 12;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+input[type='text']{
+    width: 220px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.footer-button{
+    width: 220px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+.footer-button:hover{
+    transform: scale(1.1);
+}
+.alright-reserved{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}

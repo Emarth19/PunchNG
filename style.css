@@ -1,0 +1,252 @@
+*{
+    scroll-behavior: smooth;
+    text-transform: capitalize;
+    margin: 0px;
+    padding: 0px;
+}
+.main-menu{
+    position: relative;
+    width: 100%;
+    height: 5.5rem;
+    background-color: red;
+}
+.Sub-menu{
+    position: relative;
+    display: flex;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    line-height: 5.5rem;
+    flex: 0.1;
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 500;
+}
+a:hover{
+    filter: brightness(0.7);
+}
+.button-one{
+    height: 35px;
+    width: 85px;
+    margin-top: 30px;
+    margin-right: 45px;
+    border-radius: 3px;
+    border: 2px solid white;
+    background-color: red;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+.button-one:hover{
+    background-color: red;
+    transform: scale(1.2);
+}
+hr{
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 3.5%;
+    background-color: rgba(17, 17, 17, 0.404);
+
+}
+.top-stories{
+    width: 120px;
+    height: 25px;
+    margin-left: 45%;
+    background-color:red;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 3px;
+    z-index: 1;
+    
+}
+.News-headlines{
+    display: grid;
+    grid-template: repeat(1, 400px) / repeat(3, 400px);
+    justify-content: center;
+    align-content: center;
+    gap: 20px ;
+}
+.just-in{
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+.just-in:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+
+.Politics{
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+.Politics:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+
+.Special{
+    background-color: white;
+    margin-top: 10px;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+.Special:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+.politics-one{
+    font-size: 27px;
+}
+.international-news{
+    display: grid;
+    grid-template: repeat(1, 400px) / repeat(3, 400px);
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.intern-heading{
+    width: 170px;
+    height: 25px;
+    margin-left: 45%;
+    background-color:red;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 3px;
+    z-index: 1;
+}
+.intern-one{
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+.intern-one:hover{
+    filter: drop-shadow( 4px 4px 4px grey);
+}
+.intern-two{
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+.intern-two:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+
+.intern-three{
+    background-color: white;
+    margin-top: 15px;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+.intern-three:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+.hacker{
+    margin-left: 10px;
+}
+.intern-two-one{
+    font-size: 25px;
+}
+.Abbachir{
+    margin-left: 10px;
+}
+.sport-heading{
+    width: 170px;
+    height: 25px;
+    margin-left: 45%;
+    background-color:red;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    position: relative;
+    padding: 3px;
+    z-index: 1;
+}
+.sports{
+    display: grid;
+    grid-template: repeat(1, 400px) / repeat(3, 400px);
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+}
+.local-sport{
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+.local-sport:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+.olympic-sport{
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+.olympic-sport:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+.international-sport{
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 4px 4px 4px grey;
+    cursor: pointer;
+}
+.international-sport:hover{
+    filter: drop-shadow(4px 4px 4px grey);
+}
+footer{
+    background-color: black;
+    width: 100%;
+    height: 320px;
+    margin-top: 50px;
+    color: white;
+}
+.footer-image{
+    margin: 15px;
+}
+.footer-links{
+    column-count: 12;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+}
+input[type='text']{
+    width: 220px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+}
+.footer-button{
+    width: 220px;
+    height: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 8px;
+}
+.footer-button:hover{
+    transform: scale(1.1);
+}
+.alright-reserved{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+}
